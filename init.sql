@@ -1,18 +1,18 @@
 create table emails
 (
-    user_id STRING PRIMARY KEY,
-    user_email STRING NOT NULL,
-    mail_subject STRING NOT NULL,
-    mail_body STRING NOT NULL,
+    user_id VARCHAR PRIMARY KEY,
+    user_email VARCHAR NOT NULL,
+    mail_subject VARCHAR NOT NULL,
+    mail_body VARCHAR NOT NULL,
     created_at DATETIME NOT NULL,
     updated_at DATETIME NOT NULL
 );
 
 create table noties
 (
-    notification_id STRING PRIMARY KEY,
-    user_id STRING NOT NULL,
-    notification_body STRING NOT NULL,
+    notification_id VARCHAR PRIMARY KEY,
+    user_id VARCHAR NOT NULL,
+    notification_body VARCHAR NOT NULL,
     notification_state INTEGER NOT NULL,
     notification_type INTEGER NOT NULL,
     created_at DATETIME NOT NULL,
