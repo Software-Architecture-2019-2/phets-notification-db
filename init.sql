@@ -19,5 +19,5 @@ create table noties
     updated_at DATETIME NOT NULL,
 );
 
-ALTER TABLE Emails OWNER TO phets_notification;
-ALTER TABLE Noties OWNER TO phets_notification;
+ALTER TABLE Emails OWNER TO phets_notification-db;
+ALTER TABLE Noties OWNER TO phets_notification-db;
