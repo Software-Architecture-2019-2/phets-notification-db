@@ -15,5 +15,5 @@ create table noties
     notification_type INTEGER NOT NULL
 );
 
-ALTER TABLE Emails OWNER TO phets_notification-db;
-ALTER TABLE Noties OWNER TO phets_notification-db;
+ALTER TABLE Emails OWNER TO phets_notification_db;
+ALTER TABLE Noties OWNER TO phets_notification_db;
