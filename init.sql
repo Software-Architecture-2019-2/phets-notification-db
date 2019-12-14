@@ -5,7 +5,7 @@ create table emails
     mail_subject STRING NOT NULL,
     mail_body STRING NOT NULL,
     created_at DATETIME NOT NULL,
-    updated_at DATETIME NOT NULL,
+    updated_at DATETIME NOT NULL
 );
 
 create table noties
@@ -16,7 +16,7 @@ create table noties
     notification_state INTEGER NOT NULL,
     notification_type INTEGER NOT NULL,
     created_at DATETIME NOT NULL,
-    updated_at DATETIME NOT NULL,
+    updated_at DATETIME NOT NULL
 );
 
 ALTER TABLE Emails OWNER TO phets_notification-db;
